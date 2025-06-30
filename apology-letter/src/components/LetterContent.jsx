@@ -11,12 +11,7 @@ const LetterContent = () => {
       >
         <div className="letter-text">
           <p>
-            Dear [Name],<br /><br />
-            I don’t know how to start, but I know I need to say I’m sorry.
-            You mean a lot to me, and the last thing I ever wanted was to hurt you...
-            <br /><br />
-            With all my heart,<br />
-            [Your Name]
+           Im writing this because i wanted to apologise for disappearing on u and making u worry for me. im truly sorry for the stress i caused to u. it just happened and i handled it wrong ,im sorry for vanishing like that, I'll be better from here on out.
           </p>
         </div>
       </div>
