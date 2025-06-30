@@ -11,7 +11,7 @@ const LetterContent = () => {
       >
         <div className="letter-text">
           <p>
-           Im writing this because i wanted to apologise for disappearing on u and making u worry for me. im truly sorry for the stress i caused to u. it just happened and i handled it wrong ,im sorry for vanishing like that, I'll be better from here on out :3
+           Im writing this because i wanted to apologise for disappearing on u and making u worry for me. im truly sorry for the stress i caused to u. it just happened and i handled it wrong ,im sorry for vanishing like that, I'll act better from here on out thats a promise:3
           </p>
         </div>
       </div>
