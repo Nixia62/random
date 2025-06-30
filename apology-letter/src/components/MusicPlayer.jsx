@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import bgMusic from '../assets/bg-music.mp3';
+import bgMusic from '../assets/Interlude_Dawn.mp3';
 
 const MusicPlayer = ({ play }) => {
   const audioRef = useRef(null);
