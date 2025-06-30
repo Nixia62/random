@@ -1,14 +1,21 @@
 import React, { useState } from 'react';
 import LetterCover from './components/LetterCover';
 import LetterContent from './components/LetterContent';
+import MusicPlayer from './components/MusicPlayer';
 
 function App() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [opened, setOpened] = useState(false);
 
   return (
-    <div>
-      {isOpen ? <LetterContent /> : <LetterCover onOpen={() => setIsOpen(true)} />}
-    </div>
+    <>
+      {!opened ? (
+        <LetterCover onOpen={() => setOpened(true)} />
+      ) : (
+        <LetterContent />
+      )}
+
+      <MusicPlayer play={opened} />
+    </>
   );
 }
 
